@@ -25,7 +25,7 @@ import com.dessalines.thumbkey.utils.autoCapitalizeIApostrophe
 // swiping with (hopefully) minimal key changes. since 'j' already had to be moved
 // made 'w' and 'b' opposite each other for 'w'ord forward and word 'b'ack convenience
 // uses programming layout but moves spacebar to the left column in order to make a more aspect ration friendly layout. this grid is 5x3 which is closer to the average phone aspect ration of 16:9 than 4x4 keyboard.
-val KB_EN_THUMBKEY_VI_WIDE_MAIN =
+val KB_EN_THUMBKEY_PROGRAMMING_VI_WIDE_MAIN =
     KeyboardC(
         listOf(
             listOf(
@@ -426,7 +426,7 @@ val KB_EN_THUMBKEY_VI_WIDE_MAIN =
         ),
     )
 
-val KB_EN_THUMBKEY_VI_WIDE_SHIFTED =
+val KB_EN_THUMBKEY_PROGRAMMING_VI_WIDE_SHIFTED =
     KeyboardC(
         listOf(
             listOf(
@@ -1151,13 +1151,13 @@ val NUMERIC_KEYBOARD_VI_WIDE =
         ),
     )
 
-val KB_EN_THUMBKEY_VI_WIDE: KeyboardDefinition =
+val KB_EN_THUMBKEY_PROGRAMMING_VI_WIDE: KeyboardDefinition =
     KeyboardDefinition(
-        title = "english thumb-key vi-friendly wide",
+        title = "english thumb-key programming vi-movement wide",
         modes =
             KeyboardDefinitionModes(
-                main = KB_EN_THUMBKEY_VI_WIDE_MAIN,
-                shifted = KB_EN_THUMBKEY_VI_WIDE_SHIFTED,
+                main = KB_EN_THUMBKEY_PROGRAMMING_VI_WIDE_MAIN,
+                shifted = KB_EN_THUMBKEY_PROGRAMMING_VI_WIDE_SHIFTED,
                 numeric = NUMERIC_KEYBOARD_VI_WIDE,
             ),
         settings =

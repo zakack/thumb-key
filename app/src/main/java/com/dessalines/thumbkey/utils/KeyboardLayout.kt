@@ -57,9 +57,10 @@ import com.dessalines.thumbkey.keyboards.KB_EN_SYMBOLS_TWO_HANDS
 import com.dessalines.thumbkey.keyboards.KB_EN_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_EN_THUMBKEY_COMPOSE
 import com.dessalines.thumbkey.keyboards.KB_EN_THUMBKEY_PROGRAMMING
+import com.dessalines.thumbkey.keyboards.KB_EN_THUMBKEY_PROGRAMMING_VI
+import com.dessalines.thumbkey.keyboards.KB_EN_THUMBKEY_PROGRAMMING_VI_WIDE
 import com.dessalines.thumbkey.keyboards.KB_EN_THUMBKEY_PROGRAMMING_WIDE
 import com.dessalines.thumbkey.keyboards.KB_EN_THUMBKEY_SYMBOLS
-import com.dessalines.thumbkey.keyboards.KB_EN_THUMBKEY_VI_WIDE
 import com.dessalines.thumbkey.keyboards.KB_EN_THUMBKEY_WIDE
 import com.dessalines.thumbkey.keyboards.KB_EN_THUMBKEY_WRITER
 import com.dessalines.thumbkey.keyboards.KB_EN_TWO_HANDS
@@ -287,5 +288,6 @@ enum class KeyboardLayout(
     RUThumbKeyWriter(KB_RU_THUMBKEY_WRITER),
     ENMessagEaseWriter(KB_EN_MESSAGEASE_WRITER),
     RUMessagEaseWriter(KB_RU_MESSAGEASE_WRITER),
-    ENThumbKeyViWide(KB_EN_THUMBKEY_VI_WIDE),
+    ENThumbKeyProgrammingVi(KB_EN_THUMBKEY_PROGRAMMING_VI),
+    ENThumbKeyProgrammingViWide(KB_EN_THUMBKEY_PROGRAMMING_VI_WIDE),
 }
